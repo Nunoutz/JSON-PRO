@@ -71,6 +71,8 @@ console.log (array6.reverse());
 
 //Exercício 7
 
+cabecalho();
+
 const array7 = ["Deltarune", "Mine", "Undertale", "Fort"];
 
 array7.filter(function(elemento){
@@ -78,17 +80,23 @@ array7.filter(function(elemento){
               }                              );
 //Exercício 8
 
+cabecalho();
+
 const array8 = ["gus", "jesse", "white", "saul"];
 
 console.log (array8.join());
 
 //Exercício 9
 
+cabecalho();
+
 const mineplaylist = ["wait", "warmth", "sweden", "dreiton"];
 
 console.log(mineplaylist.includes("dreiton"));
 
 //Exercício 10
+
+cabecalho();
 
 const numbers = [1,2,3,4,5];
 
@@ -101,12 +109,16 @@ console.log(quadrado);
 
 //Exercício 11
 
+cabecalho();
+
 const artistas = ["Laufey", "Fiona", "Boa", "Ozzy"];
 
 console.log (artistas.every(nome=>nome.length>5));
 
 //Exercício 12
 
-const array12 = [1889,130,670,10,45]
+cabecalho();
+
+const array12 = [1889,130,670,10,45];
 
 console.log (array12.some(valor=>valor>500));
